@@ -45,7 +45,12 @@ def parse_function_type(T):
     Other = Other.strip().split(')')[0].strip()
     Args = ''
     for i in Other.split(','):
-        arg = i.strip().split(' ')[0].strip()
+        i = i.strip()
+        if 'const ' == i[:6]:
+            i = i[6:]
+        arg = i.split(' ')[0].strip()
+        if i.find('*') >= 0:
+            arg += " *"
         Args += arg + ', '
     if ', ' == Args[-2:] :
         Args = Args[:-2]
