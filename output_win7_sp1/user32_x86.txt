@@ -1,336 +1,336 @@
-0x120d, NtUserRegisterServicesProcess, PVOID, 1, (PVOID)
-0x116a, NtUserCreateWindowStation, PVOID, 8, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11da, NtUserInitializeClientPfnArrays, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x11ff, NtUserProcessConnect, PVOID, 2, (PVOID, PVOID)
-0x1264, NtUserUnregisterUserApiHook, _DWORD, 0, ()
-0x120a, NtUserRegisterUserApiHook, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x126b, NtUserUpdatePerUserSystemParameters, PVOID, 1, (PVOID)
-0x1225, NtUserSetImeHotKey, PVOID, 5, (PVOID, PVOID, PVOID, PVOID, PVOID)
-0x124a, NtUserSetWindowStationUser, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x11e3, NtUserLoadKeyboardLayoutEx, PVOID, 8, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1176, NtUserDoSoundConnect, _DWORD, 0, ()
-0x127c, NtUserRegisterSessionPort, PVOID, 2, (PVOID, PVOID)
-0x1148, NtUserCallHwndOpt, PVOID, 2, (PVOID, PVOID)
-0x1235, NtUserSetShellWindowEx, PVOID, 2, (PVOID, PVOID)
-0x121c, NtUserSetChildWindowNoActivate, PVOID, 1, (PVOID)
-0x1166, NtUserCreateDesktopEx, PVOID, 6, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1228, NtUserSetInformationThread, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1296, NtUserSetGestureConfig, PVOID, 5, (PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11e4, NtUserLockWindowStation, PVOID, 1, (PVOID)
-0x1252, NtUserSwitchDesktop, PVOID, 2, (PVOID, PVOID)
-0x1262, NtUserUnlockWindowStation, PVOID, 1, (PVOID)
-0x1146, NtUserCallHwnd, PVOID, 2, (PVOID, PVOID)
-0x1287, NtUserSfmDxReportPendingBindingsToDwm, _DWORD, 0, ()
-0x127f, NtUserDwmStartRedirection, PVOID, 1, (PVOID)
-0x1152, NtUserGetDisplayConfigBufferSizes, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1154, NtUserQueryDisplayConfig, PVOID, 6, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11f9, NtUserPaintMonitor, PVOID, 3, (PVOID, PVOID, PVOID)
-0x11f8, NtUserPaintDesktop, BOOL, 1, (HDC)
-0x120c, NtUserRegisterRawInputDevices, BOOL, 3, (PCRAWINPUTDEVICE, UINT, UINT)
-0x11f5, NtUserOpenInputDesktop, HDESK, 3, (DWORD, BOOL, ACCESS_MASK)
-0x116b, NtUserDdeInitialize, PVOID, 5, (PVOID, PVOID, PVOID, PVOID, PVOID)
-0x121d, NtUserSetClassLong, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1243, NtUserSetWindowPlacement, BOOL, 2, (HWND, WINDOWPLACEMENT *)
-0x11df, NtUserInvalidateRgn, BOOL, 3, (HWND, HRGN, BOOL)
-0x113a, NtUserActivateKeyboardLayout, HKL, 2, (HKL, UINT)
-0x1183, NtUserEndMenu, BOOL, 0, ()
-0x1230, NtUserSetParent, HWND, 2, (HWND, HWND)
-0x116e, NtUserDeleteMenu, BOOL, 3, (HMENU, UINT, UINT)
-0x1211, NtUserRemoveMenu, BOOL, 3, (HMENU, UINT, UINT)
-0x122d, NtUserSetMenuDefaultItem, BOOL, 3, (HMENU, UINT, UINT)
-0x1172, NtUserDestroyMenu, BOOL, 1, (HMENU)
-0x11ef, NtUserMoveWindow, BOOL, 6, (HWND, int, int, int, int, BOOL)
-0x1158, NtUserCheckDesktopByThreadId, PVOID, 1, (PVOID)
-0x124d, NtUserShowCaret, BOOL, 1, (HWND)
-0x11d5, NtUserHideCaret, BOOL, 1, (HWND)
-0x11b0, NtUserGetKeyboardLayoutList, int, 2, (int, HKL *)
-0x11a1, NtUserGetCPD, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1164, NtUserCreateAcceleratorTable, HACCEL, 2, (LPACCEL, int)
-0x1245, NtUserSetWindowRgn, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1281, NtUserGetWindowMinimizeRect, PVOID, 2, (PVOID, PVOID)
-0x1192, NtUserGetAsyncKeyState, PVOID, 1, (PVOID)
-0x1268, NtUserUpdateLayeredWindow, PVOID, 10, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11e1, NtUserIsTopLevelWindow, PVOID, 1, (PVOID)
-0x11d3, NtUserGhostWindowFromHungWindow, PVOID, 1, (PVOID)
-0x11cb, NtUserGetUpdateRect, PVOID, 3, (PVOID, PVOID, PVOID)
-0x114a, NtUserCallHwndParamLock, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1182, NtUserEndDeferWindowPosEx, PVOID, 2, (PVOID, PVOID)
-0x116c, NtUserDeferWindowPos, HDWP, 8, (HDWP, HWND, HWND, int, int, int, int, UINT)
-0x126a, NtUserSetLayeredWindowAttributes, BOOL, 4, (HWND, COLORREF, BYTE, DWORD)
-0x1170, NtUserDestroyCursor, PVOID, 2, (PVOID, PVOID)
-0x120b, NtUserRegisterHotKey, BOOL, 4, (HWND, int, UINT, UINT)
-0x123f, NtUserSetWindowCompositionAttribute, PVOID, 2, (PVOID, PVOID)
-0x1224, NtUserSetFocus, HWND, 1, (HWND)
-0x11a6, NtUserGetDoubleClickTime, UINT, 0, ()
-0x125f, NtUserUnhookWindowsHookEx, BOOL, 1, (HHOOK)
-0x1173, NtUserDestroyWindow, BOOL, 1, (HWND)
-0x1260, NtUserUnhookWinEvent, BOOL, 1, (HWINEVENTHOOK)
-0x123a, NtUserSetThreadDesktop, BOOL, 1, (HDESK)
-0x1231, NtUserSetProcessWindowStation, BOOL, 1, (HWINSTA)
-0x118c, NtUserFindWindowEx, PVOID, 5, (PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1263, NtUserUnregisterClass, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1185, NtUserEnumDisplayDevices, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x115e, NtUserCloseDesktop, BOOL, 1, (HDESK)
-0x11f4, NtUserOpenDesktop, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1144, NtUserBuildNameList, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x115f, NtUserCloseWindowStation, BOOL, 1, (HWINSTA)
-0x11f7, NtUserOpenWindowStation, PVOID, 2, (PVOID, PVOID)
-0x1223, NtUserSetCursorIconData, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x114f, NtUserCallTwoParam, PVOID, 3, (PVOID, PVOID, PVOID)
-0x118b, NtUserFindExistingCursorIcon, PVOID, 3, (PVOID, PVOID, PVOID)
-0x120f, NtUserRegisterWindowMessage, PVOID, 1, (PVOID)
-0x11be, NtUserGetProcessWindowStation, HWINSTA, 0, ()
-0x1253, NtUserSystemParametersInfo, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1249, NtUserSetWindowsHookEx, PVOID, 6, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11bb, NtUserGetObjectInformation, BOOL, 5, (HANDLE, int, PVOID, DWORD, LPDWORD)
-0x1208, NtUserRegisterClassExWOW, PVOID, 7, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1169, NtUserCreateWindowEx, PVOID, 15, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11fd, NtUserPostThreadMessage, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1193, NtUserGetAtomName, PVOID, 2, (PVOID, PVOID)
-0x124f, NtUserShowWindow, BOOL, 2, (HWND, int)
-0x11aa, NtUserGetIconInfo, PVOID, 6, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11ab, NtUserGetIconSize, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1256, NtUserThunkedMenuItemInfo, PVOID, 6, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11c5, NtUserGetSystemMenu, HMENU, 2, (HWND, BOOL)
-0x1241, NtUserSetWindowFNID, PVOID, 2, (PVOID, PVOID)
-0x1266, NtUserUpdateInputContext, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1196, NtUserGetClassInfoEx, PVOID, 5, (PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1194, NtUserGetCaretBlinkTime, UINT, 0, ()
-0x1187, NtUserEnumDisplaySettings, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1197, NtUserGetClassName, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1244, NtUserSetWindowPos, BOOL, 7, (HWND, HWND, int, int, int, int, UINT)
-0x1147, NtUserCallHwndLock, PVOID, 2, (PVOID, PVOID)
-0x1227, NtUserSetImeOwnerWindow, PVOID, 2, (PVOID, PVOID)
-0x11a9, NtUserGetGUIThreadInfo, BOOL, 2, (DWORD, PGUITHREADINFO)
-0x1291, NtUserChangeWindowMessageFilterEx, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x124c, NtUserSetWinEventHook, PVOID, 8, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1207, NtUserRedrawWindow, BOOL, 4, (HWND, RECT *, HRGN, UINT)
-0x1190, NtUserGetAncestor, HWND, 2, (HWND, UINT)
-0x11ce, NtUserGetWindowCompositionAttribute, PVOID, 2, (PVOID, PVOID)
-0x11cd, NtUserGetWindowCompositionInfo, PVOID, 2, (PVOID, PVOID)
-0x1246, NtUserGetWindowRgnEx, PVOID, 3, (PVOID, PVOID, PVOID)
-0x117d, NtUserDrawIconEx, PVOID, 11, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11b4, NtUserGetKeyState, PVOID, 1, (PVOID)
-0x11a5, NtUserGetDCEx, HDC, 3, (HWND, HRGN, DWORD)
-0x1149, NtUserCallHwndParam, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1221, NtUserSetCursor, HCURSOR, 1, (HCURSOR)
-0x1258, NtUserTrackMouseEvent, BOOL, 1, (LPTRACKMOUSEEVENT)
-0x11f2, NtUserNotifyWinEvent, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1219, NtUserSetActiveWindow, HWND, 1, (HWND)
-0x11a7, NtUserGetForegroundWindow, HWND, 0, ()
-0x1186, NtUserEnumDisplayMonitors, BOOL, 4, (HDC, LPCRECT, MONITORENUMPROC, LPARAM)
-0x1143, NtUserBuildHwndList, PVOID, 7, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11c7, NtUserGetThreadState, PVOID, 1, (PVOID)
-0x1242, NtUserSetWindowLong, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x11fc, NtUserPostMessage, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1234, NtUserSetScrollInfo, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x11cf, NtUserGetWindowDC, HDC, 1, (HWND)
-0x11dc, NtUserInternalGetWindowText, PVOID, 3, (PVOID, PVOID, PVOID)
-0x11c8, NtUserGetTitleBarInfo, BOOL, 2, (HWND, PTITLEBARINFO)
-0x125b, NtUserCalcMenuBar, PVOID, 5, (PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11c4, NtUserGetScrollBarInfo, BOOL, 3, (HWND, LONG, PSCROLLBARINFO)
-0x1214, NtUserSBGetParms, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x11ea, NtUserMessageCall, PVOID, 7, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x123d, NtUserSetTimer, UINT_PTR, 4, (HWND, UINT_PTR, UINT, TIMERPROC)
-0x11a4, NtUserGetDC, HDC, 1, (HWND)
-0x11de, NtUserInvalidateRect, BOOL, 3, (HWND, RECT *, BOOL)
-0x1203, NtUserQueryWindow, PVOID, 2, (PVOID, PVOID)
-0x1232, NtUserGetProp, PVOID, 2, (PVOID, PVOID)
-0x1175, NtUserDispatchMessage, PVOID, 1, (PVOID)
-0x113f, NtUserBeginPaint, HDC, 2, (HWND, LPPAINTSTRUCT)
-0x1184, NtUserEndPaint, BOOL, 2, (HWND, PAINTSTRUCT *)
-0x1233, NtUserSetProp, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1212, NtUserRemoveProp, PVOID, 2, (PVOID, PVOID)
-0x11fa, NtUserPeekMessage, PVOID, 5, (PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11e2, NtUserKillTimer, BOOL, 2, (HWND, UINT_PTR)
-0x1205, NtUserRealInternalGetMessage, PVOID, 6, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x126f, NtUserValidateTimerCallback, PVOID, 1, (PVOID)
-0x1273, NtUserWaitMessage, BOOL, 0, ()
-0x11b9, NtUserGetMessage, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1289, NtUserSfmDxSetSwapChainStats, PVOID, 2, (PVOID, PVOID)
-0x114e, NtUserCallOneParam, PVOID, 2, (PVOID, PVOID)
-0x114d, NtUserCallNoParam, PVOID, 1, (PVOID)
-0x11c6, NtUserGetThreadDesktop, HDESK, 1, (DWORD)
-0x123e, NtUserSetProcessDPIAware, _DWORD, 0, ()
-0x1160, NtUserConsoleControl, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1215, NtUserScrollDC, PVOID, 7, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11e6, NtUserLockWorkStation, BOOL, 0, ()
-0x125a, NtUserCalculatePopupWindowPosition, PVOID, 5, (PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1155, NtUserDisplayConfigGetDeviceInfo, PVOID, 1, (PVOID)
-0x115c, NtUserClipCursor, BOOL, 1, (RECT *)
-0x1257, NtUserToUnicodeEx, PVOID, 7, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11b8, NtUserGetMenuItemRect, BOOL, 4, (HWND, HMENU, UINT, LPRECT)
-0x121f, NtUserSetClipboardData, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1161, NtUserConvertMemHandle, PVOID, 2, (PVOID, PVOID)
-0x117f, NtUserEmptyClipboard, BOOL, 0, ()
-0x1198, NtUserGetClipboardData, PVOID, 2, (PVOID, PVOID)
-0x1168, NtUserCreateLocalMemHandle, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1282, NtUserSfmDxBindSwapChain, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1283, NtUserSfmDxOpenSwapChain, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1286, NtUserSfmDxQuerySwapChainBindingStatus, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1288, NtUserSfmDxGetSwapChainStats, PVOID, 2, (PVOID, PVOID)
-0x1285, NtUserSfmDxSetSwapChainBindingStatus, PVOID, 2, (PVOID, PVOID)
-0x1284, NtUserSfmDxReleaseSwapChain, PVOID, 2, (PVOID, PVOID)
-0x115a, NtUserCheckMenuItem, PVOID, 3, (PVOID, PVOID, PVOID)
-0x11e5, NtUserLockWindowUpdate, BOOL, 1, (HWND)
-0x1251, NtUserSoundSentry, _DWORD, 0, ()
-0x1338, NtUserHwndSetRedirectionInfo, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x126d, NtUserValidateHandleSecure, PVOID, 1, (PVOID)
-0x1280, NtUserDwmStopRedirection, _DWORD, 0, ()
-0x11dd, NtUserInternalGetWindowIcon, PVOID, 2, (PVOID, PVOID)
-0x11d7, NtUserHungWindowFromGhostWindow, PVOID, 1, (PVOID)
-0x1151, NtUserChangeDisplaySettings, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1337, NtUserHwndQueryRedirectionInfo, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1334, NtUserMagControl, PVOID, 2, (PVOID, PVOID)
-0x1335, NtUserMagSetContextInformation, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1336, NtUserMagGetContextInformation, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1199, NtUserGetClipboardFormatName, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1220, NtUserSetClipboardViewer, HWND, 1, (HWND)
-0x119f, NtUserGetControlBrush, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1189, NtUserExcludeUpdateRgn, int, 2, (HDC, HWND)
-0x1270, NtUserVkKeyScanEx, PVOID, 3, (PVOID, PVOID, PVOID)
-0x126e, NtUserValidateRect, BOOL, 2, (HWND, RECT *)
-0x1238, NtUserSetSystemMenu, PVOID, 2, (PVOID, PVOID)
-0x115b, NtUserChildWindowFromPointEx, HWND, 4, (HWND, POINT, UINT)
-0x1271, NtUserWaitForInputIdle, PVOID, 3, (PVOID, PVOID, PVOID)
-0x11cc, NtUserGetUpdateRgn, PVOID, 3, (PVOID, PVOID, PVOID)
-0x124b, NtUserSetWindowWord, WORD, 3, (HWND, int, WORD)
-0x1180, NtUserEnableMenuItem, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1150, NtUserChangeClipboardChain, BOOL, 2, (HWND, HWND)
-0x1140, NtUserBitBltSysBmp, PVOID, 8, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1181, NtUserEnableScrollBar, PVOID, 3, (PVOID, PVOID, PVOID)
-0x116d, NtUserDefSetText, PVOID, 2, (PVOID, PVOID)
-0x11a2, NtUserGetCursorFrameInfo, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x118d, NtUserFlashWindowEx, BOOL, 1, (PFLASHWINFO)
-0x114c, NtUserCallNextHookEx, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1247, NtUserSetWindowRgnEx, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1195, NtUserGetCaretPos, BOOL, 1, (LPPOINT)
-0x1162, NtUserCopyAcceleratorTable, int, 3, (HACCEL, LPACCEL, int)
-0x119e, NtUserGetComboBoxInfo, BOOL, 2, (HWND, PCOMBOBOXINFO)
-0x123c, NtUserSetThreadState, PVOID, 2, (PVOID, PVOID)
-0x124e, NtUserShowScrollBar, BOOL, 3, (HWND, int, BOOL)
-0x1216, NtUserScrollWindowEx, PVOID, 8, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x115d, NtUserCloseClipboard, BOOL, 0, ()
-0x11f3, NtUserOpenClipboard, PVOID, 2, (PVOID, PVOID)
-0x11e0, NtUserIsClipboardFormatAvailable, BOOL, 1, (UINT)
-0x119b, NtUserGetClipboardSequenceNumber, DWORD, 0, ()
-0x119a, NtUserGetClipboardOwner, HWND, 0, ()
-0x1255, NtUserThunkedMenuInfo, PVOID, 2, (PVOID, PVOID)
-0x1163, NtUserCountClipboardFormats, int, 0, ()
-0x114b, NtUserCallMsgFilter, PVOID, 2, (PVOID, PVOID)
-0x11bc, NtUserGetOpenClipboardWindow, HWND, 0, ()
-0x1259, NtUserTrackPopupMenuEx, BOOL, 6, (HMENU, UINT, int, int, HWND, LPTPMPARAMS)
-0x118a, NtUserFillWindow, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1165, NtUserCreateCaret, BOOL, 4, (HWND, HBITMAP, int, int)
-0x116f, NtUserDestroyAcceleratorTable, PVOID, 1, (PVOID)
-0x121b, NtUserSetCapture, HWND, 1, (HWND)
-0x11b2, NtUserGetKeyboardState, BOOL, 1, (PBYTE)
-0x122a, NtUserSetKeyboardState, BOOL, 1, (LPBYTE)
-0x125d, NtUserTranslateAccelerator, PVOID, 3, (PVOID, PVOID, PVOID)
-0x11d1, NtUserGetWindowPlacement, BOOL, 2, (HWND, WINDOWPLACEMENT *)
-0x125e, NtUserTranslateMessage, PVOID, 2, (PVOID, PVOID)
-0x1265, NtUserUnregisterHotKey, BOOL, 2, (HWND, int)
-0x11e8, NtUserMapVirtualKeyEx, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1141, NtUserBlockInput, BOOL, 1, (BOOL)
-0x122b, NtUserSetMenu, PVOID, 3, (PVOID, PVOID, PVOID)
-0x113e, NtUserAttachThreadInput, BOOL, 3, (DWORD, DWORD, BOOL)
-0x1275, NtUserWindowFromPoint, HWND, 2, (POINT)
-0x1274, NtUserWindowFromPhysicalPoint, PVOID, 2, (PVOID, PVOID)
-0x11e7, NtUserLogicalToPhysicalPoint, PVOID, 2, (PVOID, PVOID)
-0x11fb, NtUserPhysicalToLogicalPoint, PVOID, 2, (PVOID, PVOID)
-0x11b6, NtUserGetMenuBarInfo, BOOL, 4, (HWND, LONG, LONG, PMENUBARINFO)
-0x1218, NtUserSendInput, UINT, 3, (UINT, LPINPUT, int)
-0x125c, NtUserPaintMenuBar, PVOID, 6, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x113b, NtUserAddClipboardFormatListener, PVOID, 1, (PVOID)
-0x113c, NtUserAlterWindowStyle, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1145, NtUserBuildPropList, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1153, NtUserSetDisplayConfig, PVOID, 5, (PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1156, NtUserDisplayConfigSetDeviceInfo, PVOID, 1, (PVOID)
-0x1157, NtUserCheckAccessForIntegrityLevel, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1159, NtUserCheckWindowThreadDesktop, PVOID, 2, (PVOID, PVOID)
-0x1177, NtUserDoSoundDisconnect, _DWORD, 0, ()
-0x1178, NtUserDragDetect, BOOL, 3, (HWND, POINT)
-0x1179, NtUserDragObject, DWORD, 5, (HWND, HWND, UINT, ULONG_PTR, HCURSOR)
-0x117a, NtUserDrawAnimatedRects, BOOL, 4, (HWND, int, RECT *, RECT *)
-0x117b, NtUserDrawCaption, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x117c, NtUserDrawCaptionTemp, PVOID, 7, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x117e, NtUserDrawMenuBarTemp, PVOID, 5, (PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1188, NtUserEvent, PVOID, 1, (PVOID)
-0x118e, NtUserFrostCrashedWindow, PVOID, 2, (PVOID, PVOID)
-0x118f, NtUserGetAltTabInfo, PVOID, 6, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x119c, NtUserGetClipboardViewer, HWND, 0, ()
-0x119d, NtUserGetClipCursor, BOOL, 1, (LPRECT)
-0x11a0, NtUserGetControlColor, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x11a3, NtUserGetCursorInfo, BOOL, 1, (PCURSORINFO)
-0x11a8, NtUserGetGuiResources, DWORD, 2, (HANDLE, DWORD)
-0x11ac, NtUserGetImeHotKey, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x11ae, NtUserGetInputLocaleInfo, PVOID, 2, (PVOID, PVOID)
-0x11af, NtUserGetInternalWindowPos, PVOID, 3, (PVOID, PVOID, PVOID)
-0x11b1, NtUserGetKeyboardLayoutName, PVOID, 1, (PVOID)
-0x11b3, NtUserGetKeyNameText, PVOID, 3, (PVOID, PVOID, PVOID)
-0x11b5, NtUserGetListBoxInfo, DWORD, 1, (HWND)
-0x11b7, NtUserGetMenuIndex, PVOID, 2, (PVOID, PVOID)
-0x11ba, NtUserGetMouseMovePointsEx, int, 5, (UINT, LPMOUSEMOVEPOINT, LPMOUSEMOVEPOINT, int, DWORD)
-0x11bd, NtUserGetPriorityClipboardFormat, int, 2, (UINT *, int)
-0x11bf, NtUserGetRawInputBuffer, PVOID, 3, (PVOID, PVOID, PVOID)
-0x11c0, NtUserGetRawInputData, UINT, 5, (HRAWINPUT, UINT, LPVOID, PUINT, UINT)
-0x11c1, NtUserGetRawInputDeviceInfo, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x11c2, NtUserGetRawInputDeviceList, UINT, 3, (PRAWINPUTDEVICELIST, PUINT, UINT)
-0x11c3, NtUserGetRegisteredRawInputDevices, UINT, 3, (PRAWINPUTDEVICE, PUINT, UINT)
-0x11c9, NtUserGetTopLevelWindow, PVOID, 1, (PVOID)
-0x11ca, NtUserGetUpdatedClipboardFormats, PVOID, 3, (PVOID, PVOID, PVOID)
-0x11d0, NtUserGetWindowDisplayAffinity, PVOID, 2, (PVOID, PVOID)
-0x11d2, NtUserGetWOWClass, PVOID, 2, (PVOID, PVOID)
-0x11d6, NtUserHiliteMenuItem, BOOL, 4, (HWND, HMENU, UINT, UINT)
-0x11d8, NtUserImpersonateDdeClientWindow, BOOL, 2, (HWND, HWND)
-0x11db, NtUserInitTask, PVOID, 12, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x11e9, NtUserMenuItemFromPoint, int, 4, (HWND, HMENU, POINT)
-0x11eb, NtUserMinMaximize, PVOID, 3, (PVOID, PVOID, PVOID)
-0x11ec, NtUserMNDragLeave, _DWORD, 0, ()
-0x11ed, NtUserMNDragOver, PVOID, 2, (PVOID, PVOID)
-0x11ee, NtUserModifyUserStartupInfoFlags, PVOID, 2, (PVOID, PVOID)
-0x11f0, NtUserNotifyIMEStatus, PVOID, 3, (PVOID, PVOID, PVOID)
-0x11f6, NtUserOpenThreadDesktop, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x11fe, NtUserPrintWindow, BOOL, 3, (HWND, HDC, UINT)
-0x1202, NtUserQuerySendMessage, PVOID, 1, (PVOID)
-0x1204, NtUserRealChildWindowFromPoint, HWND, 3, (HWND, POINT)
-0x1206, NtUserRealWaitMessageEx, PVOID, 2, (PVOID, PVOID)
-0x1209, NtUserRegisterErrorReportingDialog, PVOID, 2, (PVOID, PVOID)
-0x120e, NtUserRegisterTasklist, PVOID, 1, (PVOID)
-0x1210, NtUserRemoveClipboardFormatListener, PVOID, 1, (PVOID)
-0x1213, NtUserResolveDesktopForWOW, PVOID, 1, (PVOID)
-0x121e, NtUserSetClassWord, WORD, 3, (HWND, int, WORD)
-0x1222, NtUserSetCursorContents, PVOID, 2, (PVOID, PVOID)
-0x1229, NtUserSetInternalWindowPos, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x122c, NtUserSetMenuContextHelpId, BOOL, 2, (HMENU, DWORD)
-0x122e, NtUserSetMenuFlagRtoL, PVOID, 1, (PVOID)
-0x122f, NtUserSetObjectInformation, BOOL, 4, (HANDLE, int, PVOID, DWORD)
-0x1236, NtUserSetSysColors, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1237, NtUserSetSystemCursor, PVOID, 2, (PVOID, PVOID)
-0x1239, NtUserSetSystemTimer, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1240, NtUserSetWindowDisplayAffinity, PVOID, 2, (PVOID, PVOID)
-0x1248, NtUserSetWindowsHookAW, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1250, NtUserShowWindowAsync, BOOL, 2, (HWND, int)
-0x1254, NtUserTestForInteractiveUser, PVOID, 1, (PVOID)
-0x1261, NtUserUnloadKeyboardLayout, PVOID, 1, (PVOID)
-0x1267, NtUserUpdateInstance, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1269, NtUserGetLayeredWindowAttributes, BOOL, 4, (HWND, COLORREF *, BYTE *, DWORD *)
-0x126c, NtUserUserHandleGrantAccess, BOOL, 3, (HANDLE, HANDLE, BOOL)
-0x1272, NtUserWaitForMsgAndEvent, PVOID, 1, (PVOID)
-0x1276, NtUserYieldTask, _DWORD, 0, ()
-0x127d, NtUserUnregisterSessionPort, _DWORD, 0, ()
-0x127e, NtUserUpdateWindowTransform, PVOID, 3, (PVOID, PVOID, PVOID)
-0x128a, NtUserSfmGetLogicalSurfaceBinding, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x128b, NtUserSfmDestroyLogicalSurfaceBinding, PVOID, 1, (PVOID)
-0x128c, NtUserModifyWindowTouchCapability, PVOID, 3, (PVOID, PVOID, PVOID)
-0x128d, NtUserIsTouchWindow, PVOID, 2, (PVOID, PVOID)
-0x128e, NtUserSendTouchInput, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x128f, NtUserEndTouchOperation, PVOID, 1, (PVOID)
-0x1290, NtUserGetTouchInputInfo, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
-0x1292, NtUserInjectGesture, PVOID, 5, (PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1293, NtUserGetGestureInfo, PVOID, 2, (PVOID, PVOID)
-0x1294, NtUserGetGestureExtArgs, PVOID, 3, (PVOID, PVOID, PVOID)
-0x1295, NtUserManageGestureHandlerWindow, PVOID, 2, (PVOID, PVOID)
-0x1297, NtUserGetGestureConfig, PVOID, 6, (PVOID, PVOID, PVOID, PVOID, PVOID, PVOID)
-0x1332, NtUserSetMirrorRendering, PVOID, 2, (PVOID, PVOID)
-0x1333, NtUserShowSystemCursor, PVOID, 1, (PVOID)
+/*0x120d,01*/_UNKNOWN NtUserRegisterServicesProcess(_UNKNOWN);
+/*0x116a,08*/_UNKNOWN NtUserCreateWindowStation(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x11da,04*/NTSTATUS NtUserInitializeClientPfnArrays(PPFNCLIENT,PPFNCLIENT,PPFNCLIENTWORKER,HINSTANCE);
+/*0x11ff,02*/_UNKNOWN NtUserProcessConnect(_UNKNOWN,_UNKNOWN);
+/*0x1264,00*/DWORD NtUserUnregisterUserApiHook(VOID);
+/*0x120a,04*/_UNKNOWN NtUserRegisterUserApiHook(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x126b,01*/_UNKNOWN NtUserUpdatePerUserSystemParameters(_UNKNOWN);
+/*0x1225,05*/_UNKNOWN NtUserSetImeHotKey(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x124a,04*/BOOL NtUserSetWindowStationUser(HWINSTA,PLUID,PSID,DWORD);
+/*0x11e3,08*/_UNKNOWN NtUserLoadKeyboardLayoutEx(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1176,00*/DWORD NtUserDoSoundConnect(VOID);
+/*0x127c,02*/_UNKNOWN NtUserRegisterSessionPort(_UNKNOWN,_UNKNOWN);
+/*0x1148,02*/HWND NtUserCallHwndOpt(HWND,DWORD);
+/*0x1235,02*/BOOL NtUserSetShellWindowEx(HWND,HWND);
+/*0x121c,01*/_UNKNOWN NtUserSetChildWindowNoActivate(_UNKNOWN);
+/*0x1166,06*/_UNKNOWN NtUserCreateDesktopEx(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1228,04*/NTSTATUS NtUserSetInformationThread(HANDLE,USERTHREADINFOCLASS,PVOID,ULONG);
+/*0x1296,05*/_UNKNOWN NtUserSetGestureConfig(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x11e4,01*/BOOL NtUserLockWindowStation(HWINSTA);
+/*0x1252,02*/_UNKNOWN NtUserSwitchDesktop(_UNKNOWN,_UNKNOWN);
+/*0x1262,01*/BOOL NtUserUnlockWindowStation(HWINSTA);
+/*0x1146,02*/DWORD NtUserCallHwnd(HWND,DWORD);
+/*0x1287,00*/DWORD NtUserSfmDxReportPendingBindingsToDwm(VOID);
+/*0x127f,01*/_UNKNOWN NtUserDwmStartRedirection(_UNKNOWN);
+/*0x1152,03*/_UNKNOWN NtUserGetDisplayConfigBufferSizes(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1154,06*/_UNKNOWN NtUserQueryDisplayConfig(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x11f9,03*/_UNKNOWN NtUserPaintMonitor(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x11f8,01*/BOOL NtUserPaintDesktop(HDC);
+/*0x120c,03*/BOOL NtUserRegisterRawInputDevices(PCRAWINPUTDEVICE,UINT,UINT);
+/*0x11f5,03*/HDESK NtUserOpenInputDesktop(DWORD,BOOL,ACCESS_MASK);
+/*0x116b,05*/DWORD NtUserDdeInitialize(OUT PHANDLE,OUT HWND*,OUT PDWORD,DWORD,PVOID);
+/*0x121d,04*/ULONG_PTR NtUserSetClassLong(HWND,INT,ULONG_PTR,BOOL);
+/*0x1243,02*/BOOL NtUserSetWindowPlacement(HWND,LPWINDOWPLACEMENT);
+/*0x11df,03*/BOOL NtUserInvalidateRgn(HWND,HRGN,BOOL);
+/*0x113a,02*/HKL NtUserActivateKeyboardLayout(HKL,UINT);
+/*0x1183,00*/BOOL NtUserEndMenu(VOID);
+/*0x1230,02*/HWND NtUserSetParent(HWND,HWND);
+/*0x116e,03*/BOOL NtUserDeleteMenu(HMENU,UINT,UINT);
+/*0x1211,03*/BOOL NtUserRemoveMenu(HMENU,UINT,UINT);
+/*0x122d,03*/BOOL NtUserSetMenuDefaultItem(HMENU,UINT,UINT);
+/*0x1172,01*/BOOL NtUserDestroyMenu(HMENU);
+/*0x11ef,06*/BOOL NtUserMoveWindow(HWND,INT,INT,INT,INT,BOOL);
+/*0x1158,01*/BOOL NtUserCheckDesktopByThreadId(DWORD);
+/*0x124d,01*/BOOL NtUserShowCaret(HWND);
+/*0x11d5,01*/BOOL NtUserHideCaret(HWND);
+/*0x11b0,02*/INT NtUserGetKeyboardLayoutList(INT,LPHKL);
+/*0x11a1,03*/ULONG_PTR NtUserGetCPD(HWND,GETCPD,ULONG_PTR);
+/*0x1164,02*/HACCEL NtUserCreateAcceleratorTable(LPACCEL,INT);
+/*0x1245,03*/INT NtUserSetWindowRgn(HWND,HRGN,BOOL);
+/*0x1281,02*/_UNKNOWN NtUserGetWindowMinimizeRect(_UNKNOWN,_UNKNOWN);
+/*0x1192,01*/SHORT NtUserGetAsyncKeyState(INT);
+/*0x1268,10*/BOOL NtUserUpdateLayeredWindow(HWND,HDC,LPPOINT,PSIZE,HDC,LPPOINT,COLORREF,PBLENDFUNCTION,DWORD,LPRECT);
+/*0x11e1,01*/_UNKNOWN NtUserIsTopLevelWindow(_UNKNOWN);
+/*0x11d3,01*/_UNKNOWN NtUserGhostWindowFromHungWindow(_UNKNOWN);
+/*0x11cb,03*/BOOL NtUserGetUpdateRect(HWND,LPRECT,BOOL);
+/*0x114a,03*/DWORD NtUserCallHwndParamLock(HWND,DWORD,DWORD);
+/*0x1182,02*/BOOL NtUserEndDeferWindowPosEx(HDWP,BOOL);
+/*0x116c,08*/HDWP NtUserDeferWindowPos(HDWP,HWND,HWND,INT,INT,INT,INT,UINT);
+/*0x126a,04*/BOOL NtUserSetLayeredWindowAttributes(HWND,COLORREF,BYTE,DWORD);
+/*0x1170,02*/BOOL NtUserDestroyCursor(HANDLE,BOOL);
+/*0x120b,04*/BOOL NtUserRegisterHotKey(HWND,INT,UINT,UINT);
+/*0x123f,02*/_UNKNOWN NtUserSetWindowCompositionAttribute(_UNKNOWN,_UNKNOWN);
+/*0x1224,01*/HWND NtUserSetFocus(HWND);
+/*0x11a6,00*/UINT NtUserGetDoubleClickTime(VOID);
+/*0x125f,01*/BOOL NtUserUnhookWindowsHookEx(HHOOK);
+/*0x1173,01*/BOOL NtUserDestroyWindow(HWND);
+/*0x1260,01*/BOOL NtUserUnhookWinEvent(HWINEVENTHOOK);
+/*0x123a,01*/BOOL NtUserSetThreadDesktop(HDESK);
+/*0x1231,01*/BOOL NtUserSetProcessWindowStation(HWINSTA);
+/*0x118c,05*/HWND NtUserFindWindowEx(HWND,HWND,PUNICODE_STRING,PUNICODE_STRING,DWORD);
+/*0x1263,03*/BOOL NtUserUnregisterClass(PUNICODE_STRING,HINSTANCE,PCLSMENUNAME);
+/*0x1185,04*/BOOL NtUserEnumDisplayDevices(PUNICODE_STRING,DWORD,PDISPLAY_DEVICEW,DWORD);
+/*0x115e,01*/BOOL NtUserCloseDesktop(HDESK);
+/*0x11f4,03*/HDESK NtUserOpenDesktop(POBJECT_ATTRIBUTES,DWORD,ACCESS_MASK);
+/*0x1144,04*/NTSTATUS NtUserBuildNameList(HWINSTA,ULONG,PVOID,PULONG);
+/*0x115f,01*/BOOL NtUserCloseWindowStation(HWINSTA);
+/*0x11f7,02*/HWINSTA NtUserOpenWindowStation(POBJECT_ATTRIBUTES,ACCESS_MASK);
+/*0x1223,04*/BOOL NtUserSetCursorIconData(HCURSOR,PUNICODE_STRING,PUNICODE_STRING,CURSORDATA*);
+/*0x114f,03*/DWORD_PTR NtUserCallTwoParam(DWORD_PTR,DWORD_PTR,DWORD);
+/*0x118b,03*/HICON NtUserFindExistingCursorIcon(PUNICODE_STRING,PUNICODE_STRING,FINDEXISTINGCURICONPARAM*);
+/*0x120f,01*/UINT NtUserRegisterWindowMessage(PUNICODE_STRING);
+/*0x11be,00*/HWINSTA NtUserGetProcessWindowStation(VOID);
+/*0x1253,04*/BOOL NtUserSystemParametersInfo(UINT,UINT,PVOID,UINT);
+/*0x1249,06*/HHOOK NtUserSetWindowsHookEx(HINSTANCE,PUNICODE_STRING,DWORD,INT,HOOKPROC,BOOL);
+/*0x11bb,05*/BOOL NtUserGetObjectInformation(HANDLE,INT,PVOID,DWORD,PDWORD);
+/*0x1208,07*/RTL_ATOM NtUserRegisterClassExWOW(LPWNDCLASSEXW,PUNICODE_STRING,PUNICODE_STRING,PCLSMENUNAME,DWORD,DWORD,PDWORD);
+/*0x1169,15*/HWND NtUserCreateWindowEx(DWORD,PLARGE_STRING,PLARGE_STRING,PLARGE_STRING,DWORD,INT,INT,INT,INT,HWND,HMENU,HINSTANCE,PVOID,DWORD,PVOID);
+/*0x11fd,04*/BOOL NtUserPostThreadMessage(DWORD,UINT,WPARAM,LPARAM);
+/*0x1193,02*/ULONG NtUserGetAtomName(ATOM,OUT PUNICODE_STRING);
+/*0x124f,02*/BOOL NtUserShowWindow(HWND,INT);
+/*0x11aa,06*/BOOL NtUserGetIconInfo(HANDLE,OUT PICONINFO,OUT PUNICODE_STRING,OUT PUNICODE_STRING,OUT PDWORD,BOOL);
+/*0x11ab,04*/BOOL NtUserGetIconSize(HANDLE,UINT,PLONG,PLONG);
+/*0x1256,06*/BOOL NtUserThunkedMenuItemInfo(HMENU,UINT,BOOL,BOOL,LPMENUITEMINFOW,PUNICODE_STRING);
+/*0x11c5,02*/HMENU NtUserGetSystemMenu(HWND,BOOL);
+/*0x1241,02*/BOOL NtUserSetWindowFNID(HWND,WORD);
+/*0x1266,03*/_UNKNOWN NtUserUpdateInputContext(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1196,05*/_UNKNOWN NtUserGetClassInfoEx(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1194,00*/UINT NtUserGetCaretBlinkTime(VOID);
+/*0x1187,04*/NTSTATUS NtUserEnumDisplaySettings(PUNICODE_STRING,DWORD,LPDEVMODEW,DWORD);
+/*0x1197,03*/INT NtUserGetClassName(HWND,BOOL,PUNICODE_STRING);
+/*0x1244,07*/BOOL NtUserSetWindowPos(HWND,HWND,INT,INT,INT,INT,UINT);
+/*0x1147,02*/BOOL NtUserCallHwndLock(HWND,DWORD);
+/*0x1227,02*/_UNKNOWN NtUserSetImeOwnerWindow(_UNKNOWN,_UNKNOWN);
+/*0x11a9,02*/BOOL NtUserGetGUIThreadInfo(DWORD,PGUITHREADINFO);
+/*0x1291,04*/_UNKNOWN NtUserChangeWindowMessageFilterEx(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x124c,08*/HWINEVENTHOOK NtUserSetWinEventHook(UINT,UINT,HMODULE,PUNICODE_STRING,WINEVENTPROC,DWORD,DWORD,UINT);
+/*0x1207,04*/BOOL NtUserRedrawWindow(HWND,LPRECT,HRGN,UINT);
+/*0x1190,02*/HWND NtUserGetAncestor(HWND,UINT);
+/*0x11ce,02*/_UNKNOWN NtUserGetWindowCompositionAttribute(_UNKNOWN,_UNKNOWN);
+/*0x11cd,02*/_UNKNOWN NtUserGetWindowCompositionInfo(_UNKNOWN,_UNKNOWN);
+/*0x1246,03*/_UNKNOWN NtUserGetWindowRgnEx(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x117d,11*/BOOL NtUserDrawIconEx(HDC,INT,INT,HICON,INT,INT,UINT,HBRUSH,UINT,BOOL,PVOID);
+/*0x11b4,01*/SHORT NtUserGetKeyState(INT);
+/*0x11a5,03*/HDC NtUserGetDCEx(HWND,HRGN,DWORD);
+/*0x1149,03*/DWORD NtUserCallHwndParam(HWND,DWORD,DWORD);
+/*0x1221,01*/HCURSOR NtUserSetCursor(HCURSOR);
+/*0x1258,01*/BOOL NtUserTrackMouseEvent(LPTRACKMOUSEEVENT);
+/*0x11f2,04*/VOID NtUserNotifyWinEvent(DWORD,HWND,LONG,LONG);
+/*0x1219,01*/HWND NtUserSetActiveWindow(HWND);
+/*0x11a7,00*/HWND NtUserGetForegroundWindow(VOID);
+/*0x1186,04*/BOOL NtUserEnumDisplayMonitors(HDC,LPCRECT,MONITORENUMPROC,LPARAM);
+/*0x1143,07*/NTSTATUS NtUserBuildHwndList(HDESK,HWND,BOOLEAN,ULONG,ULONG,HWND*,PULONG);
+/*0x11c7,01*/DWORD_PTR NtUserGetThreadState(DWORD);
+/*0x1242,04*/LONG NtUserSetWindowLong(HWND,DWORD,LONG,BOOL);
+/*0x11fc,04*/BOOL NtUserPostMessage(HWND,UINT,WPARAM,LPARAM);
+/*0x1234,04*/DWORD NtUserSetScrollInfo(HWND,INT,LPCSCROLLINFO,BOOL);
+/*0x11cf,01*/HDC NtUserGetWindowDC(HWND);
+/*0x11dc,03*/INT NtUserInternalGetWindowText(HWND,PWSTR,INT);
+/*0x11c8,02*/BOOL NtUserGetTitleBarInfo(HWND,PTITLEBARINFO);
+/*0x125b,05*/_UNKNOWN NtUserCalcMenuBar(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x11c4,03*/BOOL NtUserGetScrollBarInfo(HWND,LONG,PSCROLLBARINFO);
+/*0x1214,04*/BOOL NtUserSBGetParms(HWND,INT,PSBDATA,LPSCROLLINFO);
+/*0x11ea,07*/BOOL NtUserMessageCall(HWND,UINT,WPARAM,LPARAM,ULONG_PTR,DWORD,BOOL);
+/*0x123d,04*/UINT_PTR NtUserSetTimer(HWND,UINT_PTR,UINT,TIMERPROC);
+/*0x11a4,01*/HDC NtUserGetDC(HWND);
+/*0x11de,03*/BOOL NtUserInvalidateRect(HWND,LPRECT,BOOL);
+/*0x1203,02*/DWORD NtUserQueryWindow(HWND,DWORD);
+/*0x1232,02*/_UNKNOWN NtUserGetProp(_UNKNOWN,_UNKNOWN);
+/*0x1175,01*/LRESULT NtUserDispatchMessage(PMSG);
+/*0x113f,02*/HDC NtUserBeginPaint(HWND,LPPAINTSTRUCT);
+/*0x1184,02*/BOOL NtUserEndPaint(HWND,LPPAINTSTRUCT);
+/*0x1233,03*/BOOL NtUserSetProp(HWND,ATOM,HANDLE);
+/*0x1212,02*/HANDLE NtUserRemoveProp(HWND,ATOM);
+/*0x11fa,05*/BOOL NtUserPeekMessage(PMSG,HWND,UINT,UINT,UINT);
+/*0x11e2,02*/BOOL NtUserKillTimer(HWND,UINT_PTR);
+/*0x1205,06*/BOOL NtUserRealInternalGetMessage(LPMSG,HWND,UINT,UINT,UINT,BOOL);
+/*0x126f,01*/BOOL NtUserValidateTimerCallback(LPARAM);
+/*0x1273,00*/BOOL NtUserWaitMessage(VOID);
+/*0x11b9,04*/BOOL NtUserGetMessage(PMSG,HWND,UINT,UINT);
+/*0x1289,02*/_UNKNOWN NtUserSfmDxSetSwapChainStats(_UNKNOWN,_UNKNOWN);
+/*0x114e,02*/DWORD_PTR NtUserCallOneParam(DWORD_PTR,DWORD);
+/*0x114d,01*/DWORD_PTR NtUserCallNoParam(DWORD);
+/*0x11c6,01*/HDESK NtUserGetThreadDesktop(DWORD);
+/*0x123e,00*/DWORD NtUserSetProcessDPIAware(VOID);
+/*0x1160,03*/NTSTATUS NtUserConsoleControl(CONSOLECONTROL,PVOID,ULONG);
+/*0x1215,07*/BOOL NtUserScrollDC(HDC,INT,INT,LPRECT,LPRECT,HRGN,LPRECT);
+/*0x11e6,00*/BOOL NtUserLockWorkStation(VOID);
+/*0x125a,05*/_UNKNOWN NtUserCalculatePopupWindowPosition(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1155,01*/_UNKNOWN NtUserDisplayConfigGetDeviceInfo(_UNKNOWN);
+/*0x115c,01*/BOOL NtUserClipCursor(LPRECT);
+/*0x1257,07*/INT NtUserToUnicodeEx(UINT,UINT,PBYTE,PWSTR,INT,UINT,HKL);
+/*0x11b8,04*/BOOL NtUserGetMenuItemRect(HWND,HMENU,UINT,LPRECT);
+/*0x121f,03*/HANDLE NtUserSetClipboardData(UINT,HANDLE,PSETCLIPBDATA);
+/*0x1161,02*/HANDLE NtUserConvertMemHandle(PVOID,DWORD);
+/*0x117f,00*/BOOL NtUserEmptyClipboard(VOID);
+/*0x1198,02*/HANDLE NtUserGetClipboardData(UINT,PGETCLIPBDATA);
+/*0x1168,04*/NTSTATUS NtUserCreateLocalMemHandle(HANDLE,PVOID,DWORD,PDWORD);
+/*0x1282,03*/_UNKNOWN NtUserSfmDxBindSwapChain(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1283,04*/_UNKNOWN NtUserSfmDxOpenSwapChain(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1286,03*/_UNKNOWN NtUserSfmDxQuerySwapChainBindingStatus(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1288,02*/_UNKNOWN NtUserSfmDxGetSwapChainStats(_UNKNOWN,_UNKNOWN);
+/*0x1285,02*/_UNKNOWN NtUserSfmDxSetSwapChainBindingStatus(_UNKNOWN,_UNKNOWN);
+/*0x1284,02*/_UNKNOWN NtUserSfmDxReleaseSwapChain(_UNKNOWN,_UNKNOWN);
+/*0x115a,03*/DWORD NtUserCheckMenuItem(HMENU,UINT,UINT);
+/*0x11e5,01*/BOOL NtUserLockWindowUpdate(HWND);
+/*0x1251,00*/DWORD NtUserSoundSentry(VOID);
+/*0x1338,04*/_UNKNOWN NtUserHwndSetRedirectionInfo(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x126d,01*/BOOL NtUserValidateHandleSecure(HANDLE);
+/*0x1280,00*/DWORD NtUserDwmStopRedirection(VOID);
+/*0x11dd,02*/_UNKNOWN NtUserInternalGetWindowIcon(_UNKNOWN,_UNKNOWN);
+/*0x11d7,01*/_UNKNOWN NtUserHungWindowFromGhostWindow(_UNKNOWN);
+/*0x1151,04*/LONG NtUserChangeDisplaySettings(PUNICODE_STRING,LPDEVMODEW,DWORD,PVOID);
+/*0x1337,04*/_UNKNOWN NtUserHwndQueryRedirectionInfo(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1334,02*/_UNKNOWN NtUserMagControl(_UNKNOWN,_UNKNOWN);
+/*0x1335,04*/_UNKNOWN NtUserMagSetContextInformation(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1336,04*/_UNKNOWN NtUserMagGetContextInformation(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1199,03*/INT NtUserGetClipboardFormatName(UINT,PWSTR,INT);
+/*0x1220,01*/HWND NtUserSetClipboardViewer(HWND);
+/*0x119f,03*/HBRUSH NtUserGetControlBrush(HWND,HDC,UINT);
+/*0x1189,02*/INT NtUserExcludeUpdateRgn(HDC,HWND);
+/*0x1270,03*/DWORD NtUserVkKeyScanEx(WCHAR,HKL,BOOL);
+/*0x126e,02*/BOOL NtUserValidateRect(HWND,LPRECT);
+/*0x1238,02*/BOOL NtUserSetSystemMenu(HWND,HMENU);
+/*0x115b,03*/HWND NtUserChildWindowFromPointEx(HWND,POINT,UINT);
+/*0x1271,03*/DWORD NtUserWaitForInputIdle(ULONG_PTR,DWORD,BOOL);
+/*0x11cc,03*/INT NtUserGetUpdateRgn(HWND,HRGN,BOOL);
+/*0x124b,03*/WORD NtUserSetWindowWord(HWND,INT,WORD);
+/*0x1180,03*/UINT NtUserEnableMenuItem(HMENU,UINT,UINT);
+/*0x1150,02*/BOOL NtUserChangeClipboardChain(HWND,HWND);
+/*0x1140,08*/BOOL NtUserBitBltSysBmp(HDC,INT,INT,INT,INT,INT,INT,DWORD);
+/*0x1181,03*/BOOL NtUserEnableScrollBar(HWND,UINT,UINT);
+/*0x116d,02*/BOOL NtUserDefSetText(HWND,PLARGE_STRING);
+/*0x11a2,04*/HCURSOR NtUserGetCursorFrameInfo(HCURSOR,DWORD,PINT,PDWORD);
+/*0x118d,01*/BOOL NtUserFlashWindowEx(PFLASHWINFO);
+/*0x114c,04*/LRESULT NtUserCallNextHookEx(INT,WPARAM,LPARAM,BOOL);
+/*0x1247,03*/_UNKNOWN NtUserSetWindowRgnEx(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1195,01*/BOOL NtUserGetCaretPos(LPPOINT);
+/*0x1162,03*/INT NtUserCopyAcceleratorTable(HACCEL,LPACCEL,INT);
+/*0x119e,02*/BOOL NtUserGetComboBoxInfo(HWND,PCOMBOBOXINFO);
+/*0x123c,02*/VOID NtUserSetThreadState(DWORD,DWORD);
+/*0x124e,03*/BOOL NtUserShowScrollBar(HWND,INT,BOOL);
+/*0x1216,08*/DWORD NtUserScrollWindowEx(HWND,INT,INT,LPRECT,LPRECT,HRGN,LPRECT,UINT);
+/*0x115d,00*/BOOL NtUserCloseClipboard(VOID);
+/*0x11f3,02*/BOOL NtUserOpenClipboard(HWND,OUT PBOOL);
+/*0x11e0,01*/BOOL NtUserIsClipboardFormatAvailable(UINT);
+/*0x119b,00*/DWORD NtUserGetClipboardSequenceNumber(VOID);
+/*0x119a,00*/HWND NtUserGetClipboardOwner(VOID);
+/*0x1255,02*/BOOL NtUserThunkedMenuInfo(HMENU,LPCMENUINFO);
+/*0x1163,00*/INT NtUserCountClipboardFormats(VOID);
+/*0x114b,02*/BOOL NtUserCallMsgFilter(LPMSG,INT);
+/*0x11bc,00*/HWND NtUserGetOpenClipboardWindow(VOID);
+/*0x1259,06*/BOOL NtUserTrackPopupMenuEx(HMENU,UINT,INT,INT,HWND,LPTPMPARAMS);
+/*0x118a,04*/BOOL NtUserFillWindow(HWND,HWND,HDC,HBRUSH);
+/*0x1165,04*/BOOL NtUserCreateCaret(HWND,HBITMAP,INT,INT);
+/*0x116f,01*/BOOLEAN NtUserDestroyAcceleratorTable(HACCEL);
+/*0x121b,01*/HWND NtUserSetCapture(HWND);
+/*0x11b2,01*/BOOL NtUserGetKeyboardState(PBYTE);
+/*0x122a,01*/BOOL NtUserSetKeyboardState(PBYTE);
+/*0x125d,03*/INT NtUserTranslateAccelerator(HWND,HACCEL,LPMSG);
+/*0x11d1,02*/BOOL NtUserGetWindowPlacement(HWND,LPWINDOWPLACEMENT);
+/*0x125e,02*/BOOL NtUserTranslateMessage(LPMSG,UINT);
+/*0x1265,02*/BOOL NtUserUnregisterHotKey(HWND,INT);
+/*0x11e8,04*/UINT NtUserMapVirtualKeyEx(UINT,UINT,DWORD,HKL);
+/*0x1141,01*/BOOL NtUserBlockInput(BOOL);
+/*0x122b,03*/BOOL NtUserSetMenu(HWND,HMENU,BOOL);
+/*0x113e,03*/BOOL NtUserAttachThreadInput(DWORD,DWORD,BOOL);
+/*0x1275,01*/HWND NtUserWindowFromPoint(POINT);
+/*0x1274,02*/_UNKNOWN NtUserWindowFromPhysicalPoint(_UNKNOWN,_UNKNOWN);
+/*0x11e7,02*/_UNKNOWN NtUserLogicalToPhysicalPoint(_UNKNOWN,_UNKNOWN);
+/*0x11fb,02*/_UNKNOWN NtUserPhysicalToLogicalPoint(_UNKNOWN,_UNKNOWN);
+/*0x11b6,04*/BOOL NtUserGetMenuBarInfo(HWND,LONG,LONG,PMENUBARINFO);
+/*0x1218,03*/UINT NtUserSendInput(UINT,LPINPUT,INT);
+/*0x125c,06*/_UNKNOWN NtUserPaintMenuBar(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x113b,01*/_UNKNOWN NtUserAddClipboardFormatListener(_UNKNOWN);
+/*0x113c,03*/DWORD NtUserAlterWindowStyle(HWND,DWORD,LONG);
+/*0x1145,04*/NTSTATUS NtUserBuildPropList(HWND,PVOID,DWORD,PDWORD);
+/*0x1153,05*/_UNKNOWN NtUserSetDisplayConfig(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1156,01*/_UNKNOWN NtUserDisplayConfigSetDeviceInfo(_UNKNOWN);
+/*0x1157,03*/_UNKNOWN NtUserCheckAccessForIntegrityLevel(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1159,02*/_UNKNOWN NtUserCheckWindowThreadDesktop(_UNKNOWN,_UNKNOWN);
+/*0x1177,00*/DWORD NtUserDoSoundDisconnect(VOID);
+/*0x1178,02*/BOOL NtUserDragDetect(HWND,POINT);
+/*0x1179,05*/DWORD NtUserDragObject(HWND,HWND,UINT,ULONG_PTR,HCURSOR);
+/*0x117a,04*/BOOL NtUserDrawAnimatedRects(HWND,INT,LPRECT,LPRECT);
+/*0x117b,04*/BOOL NtUserDrawCaption(HWND,HDC,LPCRECT,UINT);
+/*0x117c,07*/BOOL NtUserDrawCaptionTemp(HWND,HDC,LPCRECT,HFONT,HICON,PUNICODE_STRING,UINT);
+/*0x117e,05*/DWORD NtUserDrawMenuBarTemp(HWND,HDC,PRECT,HMENU,HFONT);
+/*0x1188,01*/DWORD NtUserEvent(PEVENT_PACKET);
+/*0x118e,02*/_UNKNOWN NtUserFrostCrashedWindow(_UNKNOWN,_UNKNOWN);
+/*0x118f,06*/BOOL NtUserGetAltTabInfo(HWND,INT,PALTTABINFO,PWSTR,UINT,BOOL);
+/*0x119c,00*/HWND NtUserGetClipboardViewer(VOID);
+/*0x119d,01*/BOOL NtUserGetClipCursor(LPRECT);
+/*0x11a0,04*/HBRUSH NtUserGetControlColor(HWND,HWND,HDC,UINT);
+/*0x11a3,01*/BOOL NtUserGetCursorInfo(PCURSORINFO);
+/*0x11a8,02*/DWORD NtUserGetGuiResources(HANDLE,DWORD);
+/*0x11ac,04*/_UNKNOWN NtUserGetImeHotKey(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x11ae,02*/_UNKNOWN NtUserGetInputLocaleInfo(_UNKNOWN,_UNKNOWN);
+/*0x11af,03*/DWORD NtUserGetInternalWindowPos(HWND,LPRECT,LPPOINT);
+/*0x11b1,01*/BOOL NtUserGetKeyboardLayoutName(PWSTR);
+/*0x11b3,03*/DWORD NtUserGetKeyNameText(LONG,PWSTR,INT);
+/*0x11b5,01*/DWORD NtUserGetListBoxInfo(HWND);
+/*0x11b7,02*/UINT NtUserGetMenuIndex(HMENU,HMENU);
+/*0x11ba,05*/INT NtUserGetMouseMovePointsEx(UINT,LPMOUSEMOVEPOINT,LPMOUSEMOVEPOINT,INT,DWORD);
+/*0x11bd,02*/INT NtUserGetPriorityClipboardFormat(PUINT,INT);
+/*0x11bf,03*/DWORD NtUserGetRawInputBuffer(PRAWINPUT,PUINT,UINT);
+/*0x11c0,05*/UINT NtUserGetRawInputData(HRAWINPUT,UINT,PVOID,PUINT,UINT);
+/*0x11c1,04*/DWORD NtUserGetRawInputDeviceInfo(HANDLE,UINT,PVOID,PUINT);
+/*0x11c2,03*/UINT NtUserGetRawInputDeviceList(PRAWINPUTDEVICELIST,PUINT,UINT);
+/*0x11c3,03*/UINT NtUserGetRegisteredRawInputDevices(PRAWINPUTDEVICE,PUINT,UINT);
+/*0x11c9,01*/_UNKNOWN NtUserGetTopLevelWindow(_UNKNOWN);
+/*0x11ca,03*/_UNKNOWN NtUserGetUpdatedClipboardFormats(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x11d0,02*/_UNKNOWN NtUserGetWindowDisplayAffinity(_UNKNOWN,_UNKNOWN);
+/*0x11d2,02*/PCLS NtUserGetWOWClass(HINSTANCE,PUNICODE_STRING);
+/*0x11d6,04*/BOOL NtUserHiliteMenuItem(HWND,HMENU,UINT,UINT);
+/*0x11d8,02*/BOOL NtUserImpersonateDdeClientWindow(HWND,HWND);
+/*0x11db,12*/_UNKNOWN NtUserInitTask(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x11e9,03*/INT NtUserMenuItemFromPoint(HWND,HMENU,POINT);
+/*0x11eb,03*/DWORD NtUserMinMaximize(HWND,UINT,BOOL);
+/*0x11ec,00*/DWORD NtUserMNDragLeave(VOID);
+/*0x11ed,02*/BOOL NtUserMNDragOver(LPPOINT,OUT PMNDRAGOVERINFO);
+/*0x11ee,02*/VOID NtUserModifyUserStartupInfoFlags(DWORD,DWORD);
+/*0x11f0,03*/_UNKNOWN NtUserNotifyIMEStatus(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x11f6,04*/_UNKNOWN NtUserOpenThreadDesktop(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x11fe,03*/BOOL NtUserPrintWindow(HWND,HDC,UINT);
+/*0x1202,01*/BOOL NtUserQuerySendMessage(OUT PMSG);
+/*0x1204,02*/HWND NtUserRealChildWindowFromPoint(HWND,POINT);
+/*0x1206,02*/BOOL NtUserRealWaitMessageEx(DWORD,UINT);
+/*0x1209,02*/_UNKNOWN NtUserRegisterErrorReportingDialog(_UNKNOWN,_UNKNOWN);
+/*0x120e,01*/BOOL NtUserRegisterTasklist(HWND);
+/*0x1210,01*/_UNKNOWN NtUserRemoveClipboardFormatListener(_UNKNOWN);
+/*0x1213,01*/NTSTATUS NtUserResolveDesktopForWOW(OUT PUNICODE_STRING);
+/*0x121e,03*/WORD NtUserSetClassWord(HWND,INT,WORD);
+/*0x1222,02*/BOOL NtUserSetCursorContents(HANDLE,PICONINFO);
+/*0x1229,04*/DWORD NtUserSetInternalWindowPos(HWND,UINT,LPRECT,LPPOINT);
+/*0x122c,02*/BOOL NtUserSetMenuContextHelpId(HMENU,DWORD);
+/*0x122e,01*/BOOL NtUserSetMenuFlagRtoL(HMENU);
+/*0x122f,04*/BOOL NtUserSetObjectInformation(HANDLE,INT,PVOID,DWORD);
+/*0x1236,04*/BOOL NtUserSetSysColors(INT,PINT,LPCOLORREF,FLONG);
+/*0x1237,02*/BOOL NtUserSetSystemCursor(HCURSOR,DWORD);
+/*0x1239,03*/_UNKNOWN NtUserSetSystemTimer(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1240,02*/_UNKNOWN NtUserSetWindowDisplayAffinity(_UNKNOWN,_UNKNOWN);
+/*0x1248,03*/HHOOK NtUserSetWindowsHookAW(INT,HOOKPROC,BOOL);
+/*0x1250,02*/BOOL NtUserShowWindowAsync(HWND,INT);
+/*0x1254,01*/NTSTATUS NtUserTestForInteractiveUser(PLUID);
+/*0x1261,01*/BOOL NtUserUnloadKeyboardLayout(HKL);
+/*0x1267,03*/DWORD NtUserUpdateInstance(HANDLE,OUT PDWORD,DWORD);
+/*0x1269,04*/BOOL NtUserGetLayeredWindowAttributes(HWND,LPCOLORREF,PBYTE,PDWORD);
+/*0x126c,03*/BOOL NtUserUserHandleGrantAccess(HANDLE,HANDLE,BOOL);
+/*0x1272,01*/BOOL NtUserWaitForMsgAndEvent(HANDLE);
+/*0x1276,00*/DWORD NtUserYieldTask(VOID);
+/*0x127d,00*/DWORD NtUserUnregisterSessionPort(VOID);
+/*0x127e,03*/_UNKNOWN NtUserUpdateWindowTransform(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x128a,04*/_UNKNOWN NtUserSfmGetLogicalSurfaceBinding(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x128b,01*/_UNKNOWN NtUserSfmDestroyLogicalSurfaceBinding(_UNKNOWN);
+/*0x128c,03*/_UNKNOWN NtUserModifyWindowTouchCapability(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x128d,02*/_UNKNOWN NtUserIsTouchWindow(_UNKNOWN,_UNKNOWN);
+/*0x128e,04*/_UNKNOWN NtUserSendTouchInput(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x128f,01*/_UNKNOWN NtUserEndTouchOperation(_UNKNOWN);
+/*0x1290,04*/_UNKNOWN NtUserGetTouchInputInfo(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1292,05*/_UNKNOWN NtUserInjectGesture(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1293,02*/_UNKNOWN NtUserGetGestureInfo(_UNKNOWN,_UNKNOWN);
+/*0x1294,03*/_UNKNOWN NtUserGetGestureExtArgs(_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1295,02*/_UNKNOWN NtUserManageGestureHandlerWindow(_UNKNOWN,_UNKNOWN);
+/*0x1297,06*/_UNKNOWN NtUserGetGestureConfig(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
+/*0x1332,02*/_UNKNOWN NtUserSetMirrorRendering(_UNKNOWN,_UNKNOWN);
+/*0x1333,01*/_UNKNOWN NtUserShowSystemCursor(_UNKNOWN);
