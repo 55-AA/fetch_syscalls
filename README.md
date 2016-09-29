@@ -8,7 +8,7 @@ This IdaPython script fetchs syscall's ID and function name from those Windows d
 
 It requires IDA 6.8 and later. For getting function prototypes, A Pdb file is required when the dll is first opened to analyze.
 
-Then you can use 'Alt+F7' to open this script to run.
+If not a H\_APIs.h, You need generate it from ntgdi_reactos.h, ntuser_reactos.h and ntuser_w2k.h, then use 'Alt+F7' to open this script to run. The H\_APIs.h supply the prototype, when IDA cannot get it.
 
 The last, you can obtain a output file at the script path.
 
@@ -24,15 +24,17 @@ A example of function fetched from IDA is following:
 The example of output is following:
 
     ......
-    0x1178, NtUserDragDetect, BOOL, 3, (HWND, POINT)
-    0x1179, NtUserDragObject, DWORD, 5, (HWND, HWND, UINT, ULONG_PTR, HCURSOR)
-    0x117a, NtUserDrawAnimatedRects, BOOL, 4, (HWND, int, const, const)
-    0x117b, NtUserDrawCaption, PVOID, 4, (PVOID, PVOID, PVOID, PVOID)
+    /*0x116e,03*/BOOL NtUserDeleteMenu(HMENU,UINT,UINT);
+    /*0x1211,03*/BOOL NtUserRemoveMenu(HMENU,UINT,UINT);
+    /*0x122d,03*/BOOL NtUserSetMenuDefaultItem(HMENU,UINT,UINT);
+    /*0x1172,01*/BOOL NtUserDestroyMenu(HMENU);
+    /*0x11ef,06*/BOOL NtUserMoveWindow(HWND,INT,INT,INT,INT,BOOL);
+    /*0x1158,01*/BOOL NtUserCheckDesktopByThreadId(DWORD);
     ......
 
 The columns meanning above: 
 
-    allID, Func, return Type, arguments count, argument list
+    ID, Paramster count, Function prototype
 
 ##Todo
 I cannot get prototype and parameter count on x64 PE, so I need a new way. In fact, there are many function, their prototype are identical with x86 ones. 
