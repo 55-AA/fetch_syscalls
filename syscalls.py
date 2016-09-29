@@ -5,7 +5,8 @@ those Windows dlls with IDA Pro, such as ntdll.dll, user32.dll.
 It requires IDA 6.8 and later. For getting function prototypes,
 A pdb file is required when the dll is first opened to analyze.
 
-You need generate a H_APIs.h if not one, then use 'Alt+F7' to open 
+If not a H_APIs.h, You need generate it from ntgdi_reactos.h,
+ntuser_reactos.h and ntuser_w2k.h, then use 'Alt+F7' to open 
 this script to run. The H_APIs.h supply the prototype, when IDA 
 cannot get it.
 
@@ -120,7 +121,7 @@ def from_IDA_function_type(T):
     Other = Other.strip().split(')')[0].strip()
     Args = []
     Argn = 0
-    IN_key_skip = ["IN", "CONST", "const", "OPTIONAL"]
+    IN_key_skip = ["IN", "OUT", "CONST", "const", "OPTIONAL"]
     for i in Other.split(','):
         words = i.split()
         for j in IN_key_skip:
