@@ -42,6 +42,7 @@ ref: https://www.hex-rays.com/products/ida/support/idapython_docs/
 
 import os
 from idaapi import *
+
 g_param_format = {
     "char"      : "CHAR",
     "int"       : "INT",
@@ -61,13 +62,17 @@ g_param_format = {
     "LPSHORT"   : "PSHORT",
     "LPUSHORT"  : "PUSHORT",
     "LPDWORD"   : "PDWORD",
-    "LPWORD"    : "DWORD",
+    "LPWORD"    : "PWORD",
     "LPINT"     : "PINT",
     "LPUINT"    : "PUINT",
     "LPLONG"    : "PLONG",
     "LPULONG"   : "PULONG",
-    "LPSIZE"    : "PSIZE",
     "LPBOOL"    : "PBOOL",
+
+    "PMSG"      : "LPMSG",
+    "PSIZE"     : "LPSIZE",
+    "PPOINT"    : "LPPOINT",
+    "PCURSORINFO" : "LPCURSORINFO",
 }
 
 g_param_format2 = {
@@ -79,19 +84,20 @@ g_param_format2 = {
     "SHORT*"    : "PSHORT",
     "USHORT*"   : "PUSHORT",
     "DWORD*"    : "PDWORD",
-    "WORD*"     : "DWORD",
+    "WORD*"     : "PWORD",
     "INT*"      : "PINT",
     "UINT*"     : "PUINT",
     "LONG*"     : "PLONG",
     "ULONG*"    : "PULONG",
-    "SIZE*"     : "PSIZE",
     "BOOL*"     : "PBOOL",
     #structure
+    "SIZE*"             : "LPSIZE",
     "MSG*"              : "LPMSG",
     "POINT*"            : "LPPOINT",
     "POINTL*"           : "PPOINTL",
     "HKL*"              : "LPHKL",
     "RECT*"             : "LPRECT",
+    "PRECT"             : "LPRECT",
     "RECTL*"            : "LPRECTL",
     "COLORREF*"         : "LPCOLORREF",
     "WNDCLASSEXW*"      : "LPWNDCLASSEXW",
