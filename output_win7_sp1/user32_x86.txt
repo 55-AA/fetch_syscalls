@@ -49,7 +49,7 @@
 /*0x1245,03*/INT NtUserSetWindowRgn(HWND,HRGN,BOOL);
 /*0x1281,02*/_UNKNOWN NtUserGetWindowMinimizeRect(_UNKNOWN,_UNKNOWN);
 /*0x1192,01*/SHORT NtUserGetAsyncKeyState(INT);
-/*0x1268,10*/BOOL NtUserUpdateLayeredWindow(HWND,HDC,LPPOINT,PSIZE,HDC,LPPOINT,COLORREF,PBLENDFUNCTION,DWORD,LPRECT);
+/*0x1268,10*/BOOL NtUserUpdateLayeredWindow(HWND,HDC,LPPOINT,LPSIZE,HDC,LPPOINT,COLORREF,PBLENDFUNCTION,DWORD,LPRECT);
 /*0x11e1,01*/_UNKNOWN NtUserIsTopLevelWindow(_UNKNOWN);
 /*0x11d3,01*/_UNKNOWN NtUserGhostWindowFromHungWindow(_UNKNOWN);
 /*0x11cb,03*/BOOL NtUserGetUpdateRect(HWND,LPRECT,BOOL);
@@ -136,17 +136,17 @@
 /*0x11de,03*/BOOL NtUserInvalidateRect(HWND,LPRECT,BOOL);
 /*0x1203,02*/DWORD NtUserQueryWindow(HWND,DWORD);
 /*0x1232,02*/_UNKNOWN NtUserGetProp(_UNKNOWN,_UNKNOWN);
-/*0x1175,01*/LRESULT NtUserDispatchMessage(PMSG);
+/*0x1175,01*/LRESULT NtUserDispatchMessage(LPMSG);
 /*0x113f,02*/HDC NtUserBeginPaint(HWND,LPPAINTSTRUCT);
 /*0x1184,02*/BOOL NtUserEndPaint(HWND,LPPAINTSTRUCT);
 /*0x1233,03*/BOOL NtUserSetProp(HWND,ATOM,HANDLE);
 /*0x1212,02*/HANDLE NtUserRemoveProp(HWND,ATOM);
-/*0x11fa,05*/BOOL NtUserPeekMessage(PMSG,HWND,UINT,UINT,UINT);
+/*0x11fa,05*/BOOL NtUserPeekMessage(LPMSG,HWND,UINT,UINT,UINT);
 /*0x11e2,02*/BOOL NtUserKillTimer(HWND,UINT_PTR);
 /*0x1205,06*/BOOL NtUserRealInternalGetMessage(LPMSG,HWND,UINT,UINT,UINT,BOOL);
 /*0x126f,01*/BOOL NtUserValidateTimerCallback(LPARAM);
 /*0x1273,00*/BOOL NtUserWaitMessage(VOID);
-/*0x11b9,04*/BOOL NtUserGetMessage(PMSG,HWND,UINT,UINT);
+/*0x11b9,04*/BOOL NtUserGetMessage(LPMSG,HWND,UINT,UINT);
 /*0x1289,02*/_UNKNOWN NtUserSfmDxSetSwapChainStats(_UNKNOWN,_UNKNOWN);
 /*0x114e,02*/DWORD_PTR NtUserCallOneParam(DWORD_PTR,DWORD);
 /*0x114d,01*/DWORD_PTR NtUserCallNoParam(DWORD);
@@ -261,7 +261,7 @@
 /*0x119c,00*/HWND NtUserGetClipboardViewer(VOID);
 /*0x119d,01*/BOOL NtUserGetClipCursor(LPRECT);
 /*0x11a0,04*/HBRUSH NtUserGetControlColor(HWND,HWND,HDC,UINT);
-/*0x11a3,01*/BOOL NtUserGetCursorInfo(PCURSORINFO);
+/*0x11a3,01*/BOOL NtUserGetCursorInfo(LPCURSORINFO);
 /*0x11a8,02*/DWORD NtUserGetGuiResources(HANDLE,DWORD);
 /*0x11ac,04*/_UNKNOWN NtUserGetImeHotKey(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
 /*0x11ae,02*/_UNKNOWN NtUserGetInputLocaleInfo(_UNKNOWN,_UNKNOWN);
@@ -292,7 +292,7 @@
 /*0x11f0,03*/_UNKNOWN NtUserNotifyIMEStatus(_UNKNOWN,_UNKNOWN,_UNKNOWN);
 /*0x11f6,04*/_UNKNOWN NtUserOpenThreadDesktop(_UNKNOWN,_UNKNOWN,_UNKNOWN,_UNKNOWN);
 /*0x11fe,03*/BOOL NtUserPrintWindow(HWND,HDC,UINT);
-/*0x1202,01*/BOOL NtUserQuerySendMessage(OUT PMSG);
+/*0x1202,01*/BOOL NtUserQuerySendMessage(OUT LPMSG);
 /*0x1204,02*/HWND NtUserRealChildWindowFromPoint(HWND,POINT);
 /*0x1206,02*/BOOL NtUserRealWaitMessageEx(DWORD,UINT);
 /*0x1209,02*/_UNKNOWN NtUserRegisterErrorReportingDialog(_UNKNOWN,_UNKNOWN);
