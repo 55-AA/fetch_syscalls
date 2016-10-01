@@ -314,7 +314,7 @@ BOOL NtUserLockWorkStation(VOID);//0
 BOOL NtGdiRoundRect(HDC,INT,INT,INT,INT,INT,INT);//7
 BOOL NtUserImpersonateDdeClientWindow(HWND,HWND);//2
 INT NtGdiGetDeviceCaps(HDC,INT);//2
-DWORD NtUserDrawMenuBarTemp(HWND,HDC,PRECT,HMENU,HFONT);//5
+DWORD NtUserDrawMenuBarTemp(HWND,HDC,LPRECT,HMENU,HFONT);//5
 UINT NtGdiGetNearestPaletteIndex(HPALETTE,COLORREF);//2
 INT NtGdiDrawEscape(HDC,INT,INT,PSTR);//4
 NTSTATUS NtUserTestForInteractiveUser(PLUID);//1

@@ -36,6 +36,7 @@ g_param_format = {
     "PMSG"      : "LPMSG",
     "PSIZE"     : "LPSIZE",
     "PPOINT"    : "LPPOINT",
+    "PRECT"     : "LPRECT",
     "PCURSORINFO" : "LPCURSORINFO",
 }
 
