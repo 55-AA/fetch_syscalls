@@ -72,6 +72,7 @@ g_param_format = {
     "PMSG"      : "LPMSG",
     "PSIZE"     : "LPSIZE",
     "PPOINT"    : "LPPOINT",
+    "PRECT"     : "LPRECT",
     "PCURSORINFO" : "LPCURSORINFO",
 }
 
@@ -97,7 +98,6 @@ g_param_format2 = {
     "POINTL*"           : "PPOINTL",
     "HKL*"              : "LPHKL",
     "RECT*"             : "LPRECT",
-    "PRECT"             : "LPRECT",
     "RECTL*"            : "LPRECTL",
     "COLORREF*"         : "LPCOLORREF",
     "WNDCLASSEXW*"      : "LPWNDCLASSEXW",
