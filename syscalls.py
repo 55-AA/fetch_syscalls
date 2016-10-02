@@ -73,7 +73,11 @@ g_param_format = {
     "PSIZE"     : "LPSIZE",
     "PPOINT"    : "LPPOINT",
     "PRECT"     : "LPRECT",
-    "PCURSORINFO" : "LPCURSORINFO",
+    "PCURSORINFO"       : "LPCURSORINFO",
+    "PTITLEBARINFO"     : "LPTITLEBARINFO",
+    "PGUITHREADINFO"    : "LPGUITHREADINFO",
+    "PSCROLLBARINFO"    : "LPSCROLLBARINFO",
+    "PCOMBOBOXINFO"     : "LPCOMBOBOXINFO",
 }
 
 g_param_format2 = {

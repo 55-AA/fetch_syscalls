@@ -37,7 +37,11 @@ g_param_format = {
     "PSIZE"     : "LPSIZE",
     "PPOINT"    : "LPPOINT",
     "PRECT"     : "LPRECT",
-    "PCURSORINFO" : "LPCURSORINFO",
+    "PCURSORINFO"       : "LPCURSORINFO",
+    "PTITLEBARINFO"     : "LPTITLEBARINFO",
+    "PGUITHREADINFO"    : "LPGUITHREADINFO",
+    "PSCROLLBARINFO"    : "LPSCROLLBARINFO",
+    "PCOMBOBOXINFO"     : "LPCOMBOBOXINFO",
 }
 
 g_param_format2 = {
@@ -145,6 +149,8 @@ def save_func(func_line):
         g_func_dict[func_name] = [func_ret, paramN, func_param]
     else:
         g_Duplicate += 1
+        if paramN == g_func_dict[func_name][1]:
+            g_func_dict[func_name] = [func_ret, paramN, func_param]
 
 
 def process_lines(lines):
